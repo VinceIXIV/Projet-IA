@@ -1,0 +1,76 @@
+/*
+ * Css de la fenetre: effet visuel
+ *
+ * */
+
+/*--------------------------------Fenetre-------------------------------------------------------- */
+.root {
+	-fx-background-color:#404040;
+}
+.splitPane:horizontal > .split-pane-divider , :horizontal{
+    -fx-background-color: #404040;
+}
+.label{
+	-fx-font: bold italic 9pt "Arial";
+}
+
+/*-------------------------------coté droite----------------------------------------------- */
+.rightView{
+	-fx-background-color:#cbcac9 ;
+	-fx-padding:5px;
+}
+.camView{
+	-fx-alignment: center;
+	-fx-padding:2;
+}
+.namegrp{
+	-fx-valignment: center;
+}
+.labelNameCam{
+	-fx-color-label-visible:white;
+}
+/*-------------------------------coté gauche------------------------------------------------- */
+
+.stackLeftBot{
+	-fx-background-image: url('no-image.png');
+}
+.check-box:selected .mark {
+    -fx-background-color:#f98835 ;
+        -fx-mark-highlight-color:#f98835;
+        -fx-mark-color:#f98835;
+}
+.listView{
+	-fx-font-style: italic;
+}
+.listView:even{
+	-fx-background-color: #f8a364;
+}
+ .list-cell:filled:selected {
+    -fx-background-color: #f98835;
+    -fx-text-fill: white;
+}
+/*-------------------------------haut de la fenetre--------------*/
+
+.button{
+	-fx-background-color:#f98835;
+}
+.buttonRand{
+	-fx-graphic:url('icone_alea.gif');
+	-fx-background-color:#404040;
+}
+.buttonRand_selected{
+	-fx-graphic:url('icone_multi.gif');
+	-fx-background-color:#404040;
+}
+/*---------------------------------------------------------------------------------------- */
+
+
+
+.buttonAdd{
+	-fx-graphic:url('icone_plus.gif');
+	-fx-background-color:#404040;
+}
+.buttonHelp{
+	-fx-graphic:url('icone_aide.gif');
+	-fx-background-color:#404040;
+}
